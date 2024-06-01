@@ -10,7 +10,7 @@ Procedure:
 
 	./capture_mmsi.sh <mmsi>
 
-This creates a file called \<mmsi\>.txt. It's a comma-separated text file. It will take a gps location every 10 minutes.
+This creates a file called \<mmsi\>.txt. It's a space-separated text file. It will take a gps location every 10 minutes.
 
 Then convert this text file to a gpx using 
 
