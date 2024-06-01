@@ -10,10 +10,10 @@ Procedure:
 
 	./capture_mmsi.sh <mmsi>
 
-This creates a file called <mmsi>.txt. It's a comma-separated text file. It will take a gps location every 10 minutes.
+This creates a file called \<mmsi\>.txt. It's a comma-separated text file. It will take a gps location every 10 minutes.
 
 Then convert this text file to a gpx using 
 
-	./text2gps.sh <mmsi>
+	./text2track.sh <mmsi>
 
-This creates <mmsi>.gpx, that can be imported into opencpn, google maps, strava, etc.
+This creates \<mmsi\>.gpx, that can be imported into opencpn, google maps, strava, etc.
