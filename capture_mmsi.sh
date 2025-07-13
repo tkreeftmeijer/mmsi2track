@@ -11,6 +11,6 @@ echo "Creating ${FILE}"
 while [ 1==1 ]
 do  
   node mmsi2text.js ${MMSI} >> ${FILE}
-  sleep 600
+  sleep 60
 done
 
